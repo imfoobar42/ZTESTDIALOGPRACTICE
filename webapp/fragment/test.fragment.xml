@@ -1,0 +1,8 @@
+<Dialog xmlns="sap.m" title="XML Fragment Dialog">
+	<List headerText="Students" items="{ path: 'oModel>/Students' }">
+		<StandardListItem title="{oModel>Sid}" description="{oModel>Name}"/>
+	</List>
+	<buttons>
+		<Button text="Close" press="closeDialog"/>
+	</buttons>
+</Dialog>
